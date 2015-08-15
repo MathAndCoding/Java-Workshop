@@ -7,6 +7,9 @@
  * integer result of the operation. 
 */
 
+// Ignore this
+package chapter7;
+
 import java.util.Scanner;
 
 public class Ch7Calculator {

@@ -2,6 +2,10 @@
  * Class: Ch5IsTriangle
  * Author: Nikhil, Coding For Kids
 */
+
+// Ignore this
+package chapter5;
+
 import java.util.*;
 public class Ch5IsTriangle {
    public static void main(String[] args) {

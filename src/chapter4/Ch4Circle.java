@@ -3,6 +3,9 @@
  * Author: Nikhil, Coding For Kids
 */
 
+// Ignore this
+package chapter4;
+
 public class Ch4Circle {
    public static void main(String[] args) {
 		final double pi = 3.14; 

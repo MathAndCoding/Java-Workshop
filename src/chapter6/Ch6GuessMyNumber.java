@@ -2,6 +2,10 @@
  * Class: Ch6GuessMyNumber
  * Author: Nikhil, Coding For Kids
 */
+
+// Ignore this
+package chapter6;
+
 import java.util.*;
 public class Ch6GuessMyNumber {
    public static void main(String[] args) {

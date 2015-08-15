@@ -1,13 +1,17 @@
 /**
  * Class: InputOutput
  * Author: Vineet Kosaraju, Coding For Kids
- * Revision Date: Dec 20, 2014
+ * Last Revised By: Bryan Tan
+ * Revision Date: Aug 14, 2015
  *
  * This class is a modification to the original Input Output program. 
- * This changes the first prinln to print. The difference appears to be that
+ * This changes the first println to print. The difference appears to be that
  * println forces the computer to go the next line, whereas print lets you stay on
  * the same line in the console output.
 */
+
+// Ignore this
+package chapter2;
 
 // Here, we import part of Java's built-in libraries that lets us do input code
 import java.util.Scanner;

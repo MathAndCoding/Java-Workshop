@@ -3,6 +3,9 @@
  * Author: Nikhil, Coding For Kids
 */
 
+// Ignore this
+package chapter4;
+
 public class Ch4TempConverter {
    public static void main(String[] args) {
    		double celsiusTemp = 60.0;

@@ -1,11 +1,15 @@
 /**
  * Class: HelloWorld
  * Author: Vineet Kosaraju, Coding For Kids
- * Revision Date: Dec 20, 2014
+ * Last Revised By: Bryan Tan
+ * Revision Date: Aug 14, 2015
  *
  * This class is a modification to the original Hello World program. 
  * Now it prints out "I like Java" on the next line after saying "Hello World!"
 */
+
+// Ignore this
+package chapter2;
 
 // Start the container holding the HelloWorld java code
 public class HelloWorld {

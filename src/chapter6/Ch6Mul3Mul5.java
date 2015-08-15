@@ -7,6 +7,9 @@
  * the number 15 and number 0 are not included. 
 */
 
+// Ignore this
+package chapter6;
+
 import java.util.Scanner;
 
 public class Ch6Mul3Mul5 {

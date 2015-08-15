@@ -1,12 +1,16 @@
 /**
  * Class: InputOutputV2
  * Author: Vineet Kosaraju, Coding For Kids
- * Revision Date: Dec 20, 2014
+ * Last Revised By: Bryan Tan
+ * Revision Date: Aug 14, 2015
  *
  * This class is a modification to the original Input Output program. 
  * This also asks the user for their home address, and then tells the user that
  * the program knows where they live.
 */
+
+// Ignore this
+package chapter2;
 
 // Here, we import part of Java's built-in libraries that lets us do input code
 import java.util.Scanner;

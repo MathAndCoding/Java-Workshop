@@ -1,25 +1,33 @@
 /**
- * Class: LemonadeStandV1
+ * Class: LemonadeStandV2
  * Author: Vineet Kosaraju, Coding For Kids
- * Revision Date: Dec 20, 2014
+ * Last Revised By: Bryan Tan
+ * Revision Date: Aug 14, 2015
  *
  * This class is a modification to the original Lemonade Stand program. 
- * This prints out the values of all the variables using print and println.
+ * This prints out the values of all the variables using print and println and 
+ * asks the user for values using I/O (input/output) code.
 */
+
+package chapter3;
 
 // Here, we import part of Java's built-in libraries that lets us do input code
 import java.util.Scanner;
 
-// Start the container holding the LemonadeStandV1 java code
-public class LemonadeStandV1 {
+// Start the container holding the LemonadeStandV2 java code
+public class LemonadeStandV2 {
 
    // Start the main code block, the "main method".
    public static void main(String[] args) { 
    
+      // Create an "object" to use input code
+      Scanner input = new Scanner(System.in);
+
       // Ingredient cost definitions. Because they are not integer numbers, we use double.
-      double eachLemonCost = 0.25;
-      double eachPlasticCupCost = 0.10;
-      double poundOfSugarCost = 2.0;
+      System.out.println("Enter the cost per lemon, the cost per cup, and the pound per sugar, each on a new line.");
+      double eachLemonCost = input.nextDouble();
+      double eachPlasticCupCost = input.nextDouble();
+      double poundOfSugarCost = input.nextDouble();
 
       // Let's print out those values using System.out.print and System.out.println
       System.out.print("Cost of lemon: ");
@@ -32,9 +40,10 @@ public class LemonadeStandV1 {
       System.out.println(poundOfSugarCost);
    
       // Number of ingredients that we buy - because they are integers, we use int.
-      int numPlasticCupsBought = 35;
-      int numLemonsBought = 35;
-      int poundsOfSugarBought = 1;
+      System.out.println("Enter the number of cups bought, the number of lemons bought, and the pounds of sugar bought, each on a new line.");
+      int numPlasticCupsBought = input.nextInt();
+      int numLemonsBought = input.nextInt();
+      int poundsOfSugarBought = input.nextInt();
 
       // Let's print out those values using System.out.print and System.out.println
       System.out.print("Number of Plastic Cups Bought: ");
@@ -48,8 +57,10 @@ public class LemonadeStandV1 {
       
       // Here is the number of cups that we sell (numCupsSold), and
       // the price each buyer pays per cup (eachCupPrice)
-      int numCupsSold = 30; 
-      double eachCupPrice = 1.0;
+
+      System.out.println("Enter the number of cups sold and how much you charge per cup.");
+      int numCupsSold = input.nextInt();
+      double eachCupPrice = input.nextDouble();
 
       // Let's print out those values using System.out.print and System.out.println
       System.out.print("Number of Plastic Cups Sold: ");

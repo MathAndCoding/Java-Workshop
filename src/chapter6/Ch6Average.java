@@ -6,6 +6,9 @@
  * 3, the average is (1+2+3)/3 = 2.
 */
 
+// Ignore this
+package chapter6;
+
 import java.util.Scanner;
 
 public class Ch6Average {

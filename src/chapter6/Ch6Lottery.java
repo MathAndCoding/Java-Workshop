@@ -10,12 +10,15 @@
  * because the number zero is not allowed.
 */
 
+// Ignore this
+package chapter6;
+
 import java.util.Scanner;
 
 public class Ch6Lottery {
    public static void main(String[] args) {
       
-      Scanner input = new Scanner(System.in);
+      Scanner input = new Scanner(System.in); // TODO: Use this?
 
       int randomNumberOne = 0;
       int randomNumberTwo = 0;
